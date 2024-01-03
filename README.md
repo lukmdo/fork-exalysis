@@ -29,7 +29,7 @@ Make sure you are in any go module path on your computer. If you have no local m
 Then install exalysis with this command:
 
 ```
-go install github.com/exercism/exalysis/cmd/exalysis
+go install github.com/exercism/exalysis/cmd/exalysis@latest
 ```
 
 This will build and place the executable in your `$GOPATH/bin` directory which is usually `$HOME/go/bin`. Add this directory to the $PATH environment variable to be able to use exalysis (and other go tools) from anywhere.
