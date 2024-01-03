@@ -14,3 +14,5 @@ require (
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b
 	golang.org/x/tools v0.0.0-20200925191224-5d1fdd8fa346 // indirect
 )
+
+replace github.com/lukmdo/fork-exalysis cleanup_go_mod_add_tmp_replace => github.com/exercism/exalysis latest
